@@ -2,11 +2,23 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Name: Muhanad");
-        Console.WriteLine("Father Name: Saif");
-        Console.WriteLine("DOB: 26/04/1997");
-        Console.WriteLine("Email: mxmx8283@gmail.com");
-        Console.WriteLine("Githup Username: alhabsi16");
+        Console.WriteLine("Enter Full Name:");
+        string fullName = Console.ReadLine();
+
+        Console.WriteLine("Enter Your Birthday");
+        string DOB = Console.ReadLine();
+
+        Console.WriteLine("Enter Your Email");
+        string Email = Console.ReadLine();
+
+        Console.WriteLine("Enter Your GitHup Name");
+        string gName = Console.ReadLine();
+
+        Console.WriteLine("Full Name: " + fullName);
+        Console.WriteLine("Day of Birth: " + DOB);
+        Console.WriteLine("Email" + Email);
+        Console.WriteLine("GitHup Name: " + gName);
+        Console.WriteLine("Thank you");
         Console.Read();
     }
 }
